@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <form action="#" method "post">
+        <table>
+            <tr>
+                <td align="right">First Name: </td>
+                <td><input type ="text" name="firstName"/></td>
+                
+            </tr>
+            <tr>
+                <td align="right">Last Name: </td>
+                <td><input type ="text" name="lasttName"/></td>
+                
+            </tr>
+            <tr>
+                <td align="right">Email: </td>
+                <td><input type ="text" name="email"/></td>
+                
+            </tr>
+        <tr>
+            <td align="right">Type of License: </td>
+            <td>
+                <input type="radio" name="answer" value="Business" checked/>Business
+                <input type="radio" name="answer" value="Personal"/>Personal
+            </td>
+            
+        </tr>
+    <tr>      
+        <td align="right">Reason: </td>
+            <td><select name="reasons">
+                    <option hidden="true">Options</option>                
+                    <option value="Select a Reason">Select a Reason</option>
+                    <option value="Software Support">Software Support</option>
+                    <option value="Hardware Support">Hardware Support</option>
+                    <option value="Information Request">Information Request</option>               
+            </select>
+        <tr>
+            <td align="right">Additional Information: </td>
+            <td><textarea name="briefDescription" width="100"></textarea></td>
+        </tr>
+        <tr>
+            <td align="right"></td>
+            <td><input type="checkbox" name="serviceTerms" value="TermsService" />I have read the terms of service</td>
+            
+        </tr>
+        <tr>
+            <td align="right"></td>
+            <td><button type="submit" value="Submit" >Send Request</button></td>
+        </tr>
+        </table>
+        </form>
+    </body>
+</html>
