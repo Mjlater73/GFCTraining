@@ -1,0 +1,21 @@
+
+#header {
+    color: blue;
+    text-align: center;
+    font-size: 40;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+
+#footer {
+    color: blue;
+    text-align: center;
+    font-size: 30;
+    font-weight: bold
+}
+
+.jumbotron {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+}
